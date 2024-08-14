@@ -1,0 +1,26 @@
+body{
+    font-family: Arial;
+}
+
+/* comma artinya "and", jadi utk di bawah ini artinya: h1 dan h2 menggunakan color green */
+h1, h2{
+    color: green;
+}
+
+/* spasi artinya di-dalam, pembacaan syntax dari kanan ke kiri. Jadi utk di bawah ini artinya : 
+   gunakan color orange untuk element a di-dalam li di-dalam ul*/
+ul li a {
+    color: orange;
+}
+
+ol li a {
+    color: red;
+}
+
+p{
+    /* untuk font-family yang lebih dari satu, prioritas dari yang paling kiri */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;    
+    font-weight: 500;
+    line-height: 40px;
+}
